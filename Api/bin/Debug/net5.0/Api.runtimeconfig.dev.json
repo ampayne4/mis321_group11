@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/monteria/.dotnet/store/|arch|/|tfm|",
-      "/Users/monteria/.nuget/packages"
+      "/Users/guadalupemoncivais/.dotnet/store/|arch|/|tfm|",
+      "/Users/guadalupemoncivais/.nuget/packages"
     ]
   }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/monteria/mis321_group11-1/Api/Api.csproj": {}
+    "/Users/guadalupemoncivais/Documents/MIS321/mis321_group11/Api/Api.csproj": {}
   },
   "projects": {
-    "/Users/monteria/mis321_group11-1/Api/Api.csproj": {
+    "/Users/guadalupemoncivais/Documents/MIS321/mis321_group11/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/monteria/mis321_group11-1/Api/Api.csproj",
+        "projectUniqueName": "/Users/guadalupemoncivais/Documents/MIS321/mis321_group11/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "/Users/monteria/mis321_group11-1/Api/Api.csproj",
-        "packagesPath": "/Users/monteria/.nuget/packages/",
-        "outputPath": "/Users/monteria/mis321_group11-1/Api/obj/",
+        "projectPath": "/Users/guadalupemoncivais/Documents/MIS321/mis321_group11/Api/Api.csproj",
+        "packagesPath": "/Users/guadalupemoncivais/.nuget/packages/",
+        "outputPath": "/Users/guadalupemoncivais/Documents/MIS321/mis321_group11/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/monteria/.nuget/NuGet/NuGet.Config"
+          "/Users/guadalupemoncivais/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }
