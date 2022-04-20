@@ -14,7 +14,7 @@ namespace Api.Database
             using var con = new MySqlConnection(cs);
             con.Open();  
 
-            string stm = @"INSERT INTO customers(custId, custEmail, custFName, custLName, custPhone, password, deleted) VALUES(@custId, @custEmail, @custFName, @custLName, @custPhone, @password, @deleted)";
+            string stm = @"INSERT INTO customers(custId, custEmail, custFName, custLName, custPhone, password, deleted) VALUES(@custId, @custEmail, @custFName, @custLName, @custPhone, @password, @deleted, @CardNo, @Date, @Cvv;)";
 
             using var cmd = new MySqlCommand(stm, con);
             cmd.Parameters.AddWithValue("@custId", customer.Id);
@@ -23,6 +23,9 @@ namespace Api.Database
             cmd.Parameters.AddWithValue("@custLName", customer.LastName);
             cmd.Parameters.AddWithValue("@custPhone", customer.Phone);
             cmd.Parameters.AddWithValue("@password", customer.Password);
+            cmd.Parameters.AddWithValue("@CardNo", customer.CardNo);
+            cmd.Parameters.AddWithValue("@CvvNo", customer.CvvNo);
+            cmd.Parameters.AddWithValue("Date", customer.Date);
             cmd.Prepare();
             cmd.ExecuteNonQuery();
         }
@@ -67,9 +70,13 @@ namespace Api.Database
             using var con = new MySqlConnection(cs);
             con.Open();
             
-            string stm = @"UPDATE songs SET Favorited = true WHERE SongId = @SongId";
+            string stm = @"UPDATE customer SET CardNo = @CardNo WHERE Id = @Id";
+            string stm = @"UPDATE customer SET CvvNo = @CvvNo WHERE Id = @Id";
+            string stm = @"UPDATE customer SET Date = @CardNo WHERE Date = @Date";
             using var cmd = new MySqlCommand(stm, con);
-            cmd.Parameters.AddWithValue("@SongId", customer.Id);
+            cmd.Parameters.AddWithValue("@Id", customer.Id);
+            cmd.Parameters.AddWithValue("@CvvNo", customer.CvvNo);
+             cmd.Parameters.AddWithValue("@Date", customer.Date);
 
             cmd.Prepare();
             cmd.ExecuteNonQuery();

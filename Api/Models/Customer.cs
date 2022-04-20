@@ -8,5 +8,8 @@ namespace Api.Models
         public string Email{get;set;}
         public string Phone{get;set;}
         public string Password{get;set;}
+         public int CardNo {get;set;}
+        public int CvvNo {get;set;}
+        public string Date{get;set;}
     }
 }
