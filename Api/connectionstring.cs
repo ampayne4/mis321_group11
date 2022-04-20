@@ -1,10 +1,10 @@
 namespace Api
 {
-    public class connectionstring
+    public class ConnectionString
     {
         public string cs {get;set;}
 
-        public connectionstring()
+        public ConnectionString()
         {
             string server = "w3epjhex7h2ccjxx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
             string database = "ggufxyz547q4nwo0";
