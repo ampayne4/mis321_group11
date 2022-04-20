@@ -4,7 +4,7 @@ using MySql.Data.MySqlClient;
 
 namespace Api.Database
 {
-    public class CustomerUtil : ICreateCustomer, IDeleteCustomer
+    public class CustomerUtil : ICreateCustomer
     {
         public void Create(Customer customer)
         {
@@ -22,25 +22,6 @@ namespace Api.Database
             cmd.Parameters.AddWithValue("@custLName", customer.LastName);
             cmd.Parameters.AddWithValue("@custPhone", customer.Phone);
             cmd.Parameters.AddWithValue("@password", customer.Password);
-            cmd.Parameters.AddWithValue("@deleted", customer.Deleted);
-
-            cmd.Prepare();
-            cmd.ExecuteNonQuery();
-        }
-
-        public void Delete(int id)
-        {
-            connectionstring myConnection = new connectionstring();
-            string cs = myConnection.cs;
-            Customer customer = new Customer();
-
-            using var con = new MySqlConnection(cs);
-            con.Open();
-
-            string stm = @"UPDATE songs set Deleted = true where CustId = @CustId";
-            using var cmd = new MySqlCommand(stm, con);
-            cmd.Parameters.AddWithValue("CustId", customer.Id);
-            
             cmd.Prepare();
             cmd.ExecuteNonQuery();
         }
