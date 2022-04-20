@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/guadalupemoncivais/Documents/MIS321/mis321_group11/Api/Api.csproj": {}
+    "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/Api.csproj": {}
   },
   "projects": {
-    "/Users/guadalupemoncivais/Documents/MIS321/mis321_group11/Api/Api.csproj": {
+    "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/guadalupemoncivais/Documents/MIS321/mis321_group11/Api/Api.csproj",
+        "projectUniqueName": "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "/Users/guadalupemoncivais/Documents/MIS321/mis321_group11/Api/Api.csproj",
-        "packagesPath": "/Users/guadalupemoncivais/.nuget/packages/",
-        "outputPath": "/Users/guadalupemoncivais/Documents/MIS321/mis321_group11/Api/obj/",
+        "projectPath": "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/Api.csproj",
+        "packagesPath": "/Users/betsybryant/.nuget/packages/",
+        "outputPath": "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/guadalupemoncivais/.nuget/NuGet/NuGet.Config"
+          "/Users/betsybryant/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -38,15 +38,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-<<<<<<< HEAD
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
               "version": "[2.2.0, )"
-=======
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.0, )"
->>>>>>> b8d35d97e31ffdd1fdcd595ef08198321ff06d8e
+            },
+            "MySQL.data": {
+              "target": "Package",
+              "version": "[8.0.28, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -71,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
