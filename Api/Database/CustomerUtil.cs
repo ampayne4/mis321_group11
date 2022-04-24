@@ -25,7 +25,7 @@ namespace Api.Database
             cmd.Parameters.AddWithValue("@password", customer.Password);
             cmd.Parameters.AddWithValue("@CardNo", customer.CardNo);
             cmd.Parameters.AddWithValue("@CvvNo", customer.CvvNo);
-            cmd.Parameters.AddWithValue("Date", customer.Date);
+            cmd.Parameters.AddWithValue("@Date", customer.Date);
             cmd.Prepare();
             cmd.ExecuteNonQuery();
         }
@@ -71,8 +71,8 @@ namespace Api.Database
             con.Open();
             
             string stm = @"UPDATE customer SET CardNo = @CardNo WHERE Id = @Id";
-            string stm = @"UPDATE customer SET CvvNo = @CvvNo WHERE Id = @Id";
-            string stm = @"UPDATE customer SET Date = @CardNo WHERE Date = @Date";
+            stm = @"UPDATE customer SET CvvNo = @CvvNo WHERE Id = @Id";
+            stm = @"UPDATE customer SET Date = @CardNo WHERE Date = @Date";
             using var cmd = new MySqlCommand(stm, con);
             cmd.Parameters.AddWithValue("@Id", customer.Id);
             cmd.Parameters.AddWithValue("@CvvNo", customer.CvvNo);
