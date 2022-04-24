@@ -1,32 +1,11 @@
-body{
-    background-color: #f4f3f2;
-    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-}
-/** Nav thingys **/
-nav{
-    display: inline;
-    display: block;
-    padding: 4px;
-    background-color: #b6b1b1;
-    border: 5px solid #a7a1a1;
-}
-li:hover{
-    background-color: #54bf52;
-}
-ul{
+.jumbotron{
+    background-color:white;
     text-align: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
-li{
-    float: left;
-}
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 2px 20px;
-    text-decoration: none;
+#tidemarketmainpagelogo
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }

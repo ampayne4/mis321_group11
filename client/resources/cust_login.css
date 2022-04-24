@@ -1,18 +1,3 @@
-.jumbotron{
-    background-color: #54bf52;
-    color:white;
-    height: 800px;
-    text-align: center;
-    padding: 100px;
-}
-body{
-    background-color: #f4f3f2;
-    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-}
-nav{
-    display: inline;
-    display: block;
-    padding: 4px;
-    background-color: #b6b1b1;
-    border: 5px solid #a7a1a1;
+label{
+    display: inline-block;
 }

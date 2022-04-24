@@ -2,41 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tide Market: Main</title>
-    <!-- Browser Logo Link <<to do: make it just the elephant-->
-    <link rel="icon" href="../resources/images/tidemarketlogo_trans.png">
-    <!--Navigation for index.css stylesheet -->
-    <link rel="stylesheet" href="../resources/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="./resources/css/index.css" rel="stylesheet">
+    <script type = "text/javascript" src = "resources/scripts/index.js"></script>
+    <title>Tide Market: Main Page</title>
 </head>
 <body>
-    <!-- navigation bar for the website: Home Shop About *customer's name* *shopping cart button*-->
-    <nav>
-        <header>
-            <h1>Tide Market</h1>
-        </header>
-        <ul id="nav">
-            <li><a href="./html/main.html">Home</a> &nbsp;</li>
-            <!-- Shop Nav (which will go to the first page for categories or something)-->
-            <!-- An About Page Nav just to allow the user to know about the website -->
-            <!-- Probably automate it to the customer's or employee's name OR a nav link to log in-->
-            <li><a href="./html/cust_login.html">Login</a> &nbsp; </li>
-            <!-- shopping cart logo that will nav into the shopping cart page -->
-            <!-- example of image links:  <a href="https://petsvills.com/what-do-chinchillas-eat-in-the-wild/"> <img src="chin.jpg" alt="chinchilla" height="200 px"></a>-->
-        </ul>
-    </nav>
-    <!-- end navigation section-->
-
-
-    <!-- Main Page Display -->
-    <p>
-        <!-- With this section, style in the css to make the h2,h3 and p to the left w/grey-sh background-->
-        <h3 id="groceryshoppin">Grocery Shopping</h3>  
-        <h2 id="madebetta">Made Better</h2>
-        Online grocery shopping like you've never seen before. <br>
-        Place an order with us and have your groceries in less than 2 hours.
-        <!-- make html button to navigate to groceries :D -->
-    </p>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <img id="tidemarketmainpagelogo" src="../resources/images/tidemarketlogo.png">
+          <p class="lead">Are You A(n)</p>
+          <button onclick="Displaycustlogin();">Customer</button>
+          <button onclick="Displayemplogin();">Employee</button>
+        </div>
+      </div>
 </body>
 </html>
