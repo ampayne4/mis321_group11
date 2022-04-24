@@ -14,7 +14,7 @@ namespace Api.Database
             using var con = new MySqlConnection(cs);
             con.Open();  
 
-            string stm = @"INSERT INTO customers(custId, custEmail, custFName, custLName, custPhone, password, deleted) VALUES(@custId, @custEmail, @custFName, @custLName, @custPhone, @password, @deleted, @CardNo, @Date, @Cvv;)";
+            string stm = @"INSERT INTO customers(custId, custEmail, custFName, custLName, custPhone, password, CardNo, CvvNo, Date) VALUES(@custId, @custEmail, @custFName, @custLName, @custPhone, @password, @deleted, @CardNo, @CvvNo, @Date)";
 
             using var cmd = new MySqlCommand(stm, con);
             cmd.Parameters.AddWithValue("@custId", customer.Id);
