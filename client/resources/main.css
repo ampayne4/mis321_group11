@@ -9,3 +9,12 @@
   margin-right: auto;
   text-align: center;
 }
+p{
+  font-family: 'Times New Roman', Times, serif;
+}
+button{
+  background-color: green;
+  padding: 0%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  
+}
