@@ -13,20 +13,24 @@
   <!-- The Modal -->
 
   <img id="tidemarketmainpagelogo" src="../resources/images/tidemarketlogo.png">
-      <p class="lead">Sign into Your Tide Market Account </p>
-      <div class="container">
-        <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required>
-  
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-  
-        <button onclick="submitLogin();">Sign in</button>
-        <button onclick="createAccount();">Create Account</button>
-      </div>
-  
-     
-    </form>
-  </div>
+  <h2>Sign into Your Tide Market Account</h2><br>    
+  <div class="login">    
+  <form id="login" method="get" action="login.php">    
+      <label><b>Email    
+      </b>    
+      </label>    
+      <input type="text" name="email" id="email" placeholder="Email">    
+      <br><br>    
+      <label><b>Password     
+      </b>    
+      </label>    
+      <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+      <br><br>    
+      <button onclick="custLogin();">Login</button>   
+      <br><br>    
+       
+  </form>     
+</div> 
+ 
 </body>
 </html>

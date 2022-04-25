@@ -5,4 +5,18 @@
     left: 0;
     z-index: 1;
 }
- 
+.card {
+    box-sizing: border-box;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15%;
+  }
+  .card button {
+    padding: 10px;
+    color: white;
+    background-color:green;
+    text-align: center;
+    font-size: 10px;
+  }

@@ -1,7 +1,4 @@
-label{
-    display: inline-block;
-    
-}
+
 #tidemarketmainpagelogo
 {
   display: block;
@@ -13,3 +10,36 @@ label{
 p{
     text-align: center;
 }
+body  
+{  
+    margin: 0;  
+    padding: 0; 
+    font-family: 'Arial';
+}
+h2{  
+  text-align: center;  
+  color: green;  
+  padding: 20px;  
+} 
+label{  
+  color: green;  
+  font-size: 17px;  
+} 
+#email{  
+  width: 300px;  
+  height: 30px;  
+  border-radius: 3px;  
+  padding-left: 8px;  
+}
+#Pass{
+  width: 300px;  
+  height: 30px;  
+  border-radius: 3px;  
+  padding-left: 8px; 
+}
+.login{  
+  width: 382px;  
+  margin: auto;  
+  margin: 20 0 0 450px;  
+   
+} 
