@@ -1,4 +1,4 @@
-const baseURL = "https://localhost:5001/api/Customers";
+const baseUrl = "https://localhost:5001/api/Customers";
 // function handleOnLoad()
 // { 
 //     populateList();
@@ -10,14 +10,15 @@ const baseURL = "https://localhost:5001/api/Customers";
 function createUserAccount(){
     const postUrl = baseUrl;
     const sendCust = {
-        custFName: document.getElementById("fname").value,
-        custLName: document.getElementById("lname").value,
-        custEmail: document.getElementById("email").value,
-        custPassword: document.getElementById("psw").value,
-        cardName: document.getElementById("cdn").value,
-        cardNo: document.getElementById("cardno").value,
-        cvvNo: document.getElementById("cvvno").value,
-        cddate: document.getElementById("cddate").value,
+        custFName: document.getElementById("custFName").value,
+        custLName: document.getElementById("custLName").value,
+        custEmail: document.getElementById("custEmail").value,
+        custPassword: document.getElementById("custPassword").value,
+        cardName: document.getElementById("cardName").value,
+        cardNo: document.getElementById("cardNo").value,
+        cardMonth: document.getElementById("cardMonth").value,
+        cardYear: document.getElementById("cardYear").value,
+        cvvNo: document.getElementById("cvvNo").value,
     }
     fetch(postUrl, {
         method: "POST",
