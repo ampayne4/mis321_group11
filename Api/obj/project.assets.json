@@ -7411,19 +7411,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\spoke\\.nuget\\packages\\": {}
+    "/Users/betsybryant/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\spoke\\source\\repos\\mis321_group11\\api\\Api.csproj",
+      "projectUniqueName": "/Users/betsybryant/mis321_group11/Api/Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\Users\\spoke\\source\\repos\\mis321_group11\\api\\Api.csproj",
-      "packagesPath": "C:\\Users\\spoke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\spoke\\source\\repos\\mis321_group11\\api\\obj\\",
+      "projectPath": "/Users/betsybryant/mis321_group11/Api/Api.csproj",
+      "packagesPath": "/Users/betsybryant/.nuget/packages/",
+      "outputPath": "/Users/betsybryant/mis321_group11/Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\spoke\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/betsybryant/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -7482,7 +7482,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
