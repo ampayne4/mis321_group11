@@ -14,7 +14,7 @@ namespace Api.Database
             using var con = new MySqlConnection(cs);
             con.Open();  
 
-            string stm = @"INSERT INTO customers(custId, custFName, custLName, custEmail, custPassword, cardName, cardNo, cvvNo, cardMonth, cardYear) VALUES(@custId, @custFName, @custLName, @custEmail, @custPassword, @cardName @cardNo, @cvvNo, @cardMonth, @cardYear)";
+            string stm = @"INSERT INTO customers(custId, custFName, custLName, custEmail, custPassword, cardName, cardNo, cardMonth, cardYear, cvvNo) VALUES(@custId, @custFName, @custLName, @custEmail, @custPassword, @cardName, @cardNo, @cardMonth, @cardYear, @cvvNo)";
 
             using var cmd = new MySqlCommand(stm, con);
             cmd.Parameters.AddWithValue("@custId", customer.CustId);
@@ -24,9 +24,9 @@ namespace Api.Database
             cmd.Parameters.AddWithValue("@custPassword", customer.CustPassword);
             cmd.Parameters.AddWithValue("@cardName", customer.CardName);
             cmd.Parameters.AddWithValue("@cardNo", customer.CardNo);
-            cmd.Parameters.AddWithValue("@cvvNo", customer.CvvNo);
             cmd.Parameters.AddWithValue("@cardMonth", customer.CardMonth);
             cmd.Parameters.AddWithValue("@cardYear", customer.CardYear);
+            cmd.Parameters.AddWithValue("@cvvNo", customer.CvvNo);
             cmd.Prepare();
             cmd.ExecuteNonQuery();
         }
