@@ -14,9 +14,8 @@
     font-size: 15%;
   }
   .card button {
-    padding: 10px;
-    color: white;
     background-color:green;
     text-align: center;
     font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
   }
