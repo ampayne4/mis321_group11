@@ -10,6 +10,7 @@ namespace Api.Models
         public string CardName {get; set;}
         public int CardNo {get;set;}
         public int CvvNo {get;set;}
-        public string CdDate{get;set;}
+        public int CardMonth {get; set;}
+        public int CardYear{get;set;}
     }
 }

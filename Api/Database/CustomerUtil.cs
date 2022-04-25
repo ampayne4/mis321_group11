@@ -14,7 +14,7 @@ namespace Api.Database
             using var con = new MySqlConnection(cs);
             con.Open();  
 
-            string stm = @"INSERT INTO customers(custId, custFName, custLName, custEmail, custPassword, cardName, cardNo, cvvNo, cdDate) VALUES(@custId, @custFName, @custLName, @custEmail, @custPassword, @cardName @cardNo, @cvvNo, @cdDate)";
+            string stm = @"INSERT INTO customers(custId, custFName, custLName, custEmail, custPassword, cardName, cardNo, cvvNo, cardMonth, cardYear) VALUES(@custId, @custFName, @custLName, @custEmail, @custPassword, @cardName @cardNo, @cvvNo, @cardMonth, @cardYear)";
 
             using var cmd = new MySqlCommand(stm, con);
             cmd.Parameters.AddWithValue("@custId", customer.CustId);
@@ -25,7 +25,8 @@ namespace Api.Database
             cmd.Parameters.AddWithValue("@cardName", customer.CardName);
             cmd.Parameters.AddWithValue("@cardNo", customer.CardNo);
             cmd.Parameters.AddWithValue("@cvvNo", customer.CvvNo);
-            cmd.Parameters.AddWithValue("@cdDate", customer.CdDate);
+            cmd.Parameters.AddWithValue("@cardMonth", customer.CardMonth);
+            cmd.Parameters.AddWithValue("@cardYear", customer.CardYear);
             cmd.Prepare();
             cmd.ExecuteNonQuery();
         }
@@ -69,13 +70,14 @@ namespace Api.Database
             using var con = new MySqlConnection(cs);
             con.Open();
             
-            string stm = @"UPDATE customer SET CardNo = @CardNo WHERE Id = @Id";
+            string stm = @"UPDATE customer SET CardNo = @CardNo WHERE Id = @Id"; ///////////fix BB
             stm = @"UPDATE customer SET CvvNo = @CvvNo WHERE Id = @Id";
             stm = @"UPDATE customer SET Date = @CardNo WHERE Date = @Date";
             using var cmd = new MySqlCommand(stm, con);
-            cmd.Parameters.AddWithValue("@Id", customer.CustId);
-            cmd.Parameters.AddWithValue("@CvvNo", customer.CvvNo);
-             cmd.Parameters.AddWithValue("@Date", customer.CdDate);
+            cmd.Parameters.AddWithValue("@custId", customer.CustId);
+            cmd.Parameters.AddWithValue("@cvvNo", customer.CvvNo);
+            cmd.Parameters.AddWithValue("@cardMonth", customer.CardMonth);
+            cmd.Parameters.AddWithValue("@cardYear", customer.CardYear);
 
             cmd.Prepare();
             cmd.ExecuteNonQuery();
