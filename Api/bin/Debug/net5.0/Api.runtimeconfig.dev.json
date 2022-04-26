@@ -1,8 +1,13 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "/Users/monteria/.dotnet/store/|arch|/|tfm|",
       "/Users/monteria/.nuget/packages"
+=======
+      "C:\\Users\\spoke\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\spoke\\.nuget\\packages"
+>>>>>>> 60d47a5ab64660b4e1ab11d452b6ab2f16bba2c4
     ]
   }
 }
