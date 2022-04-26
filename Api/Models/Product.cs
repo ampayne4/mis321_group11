@@ -5,8 +5,8 @@ namespace Api.Models
         public int ProductId {get; set;}
         public string ProductName {get; set;}
         public string ProductCategory {get; set;}
-        public double ProdPrice{get;set;}
-        public string ProductImg{get;set;}
+        public string ProductImage {get; set;}
+        public double ProductPrice {get; set;} 
         public bool Deleted {get; set;}
     }
 }
