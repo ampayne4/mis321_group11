@@ -52,6 +52,13 @@ namespace Api.Database
                     CustFName = read.GetString(1),
                     CustLName = read.GetString(2),
                     CustEmail = read.GetString(3),
+                    CustPassword = read.GetString(4),
+                    CardName = read.GetString(5),
+                    CardNo = read.GetString(6),
+                    CardMonth = read.GetString(7),
+                    CardYear = read.GetString(8),
+                    CvvNo = read.GetString(9),
+
                 });
             }
             return myCustomer;
