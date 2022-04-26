@@ -40,8 +40,6 @@ namespace Api.Database
             using var con = new MySqlConnection(cs);
             con.Open();
 
-            Customer customer = new Customer();
-
             string stm = @"SELECT * from customers";
             using var cmd = new MySqlCommand(stm, con);
             using MySqlDataReader read = cmd.ExecuteReader();

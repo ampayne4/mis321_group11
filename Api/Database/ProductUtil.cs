@@ -35,8 +35,6 @@ namespace Api.Database
             using var con = new MySqlConnection(cs);
             con.Open();
 
-            Customer customer = new Customer();
-
             string stm = @"SELECT * from products";
             using var cmd = new MySqlCommand(stm, con);
             using MySqlDataReader read = cmd.ExecuteReader();
@@ -54,10 +52,6 @@ namespace Api.Database
             return myProduct;
         }
 
-        public Customer GetOne(int id)
-        {
-            throw new System.NotImplementedException();
-        }
 
         // public void Update(Product product)
         // {
