@@ -7416,11 +7416,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\spoke\\source\\repos\\mis321_group11\\api\\Api.csproj",
+      "projectUniqueName": "C:\\Users\\spoke\\source\\repos\\mis321_group11\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\Users\\spoke\\source\\repos\\mis321_group11\\api\\Api.csproj",
+      "projectPath": "C:\\Users\\spoke\\source\\repos\\mis321_group11\\Api\\Api.csproj",
       "packagesPath": "C:\\Users\\spoke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\spoke\\source\\repos\\mis321_group11\\api\\obj\\",
+      "outputPath": "C:\\Users\\spoke\\source\\repos\\mis321_group11\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\spoke\\AppData\\Roaming\\NuGet\\NuGet.Config"

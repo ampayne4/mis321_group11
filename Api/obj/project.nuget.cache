@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tHB/iyQ1L+UoTbSi3fy4XmN5KxL/0gkaXAMe4o7w4po2UusR0gRAypXkTNMOVPwAKKrdBv1PwRlnRdzg/ASWwQ==",
+  "dgSpecHash": "6q+SYUQKiNT7K5+3STricRA6qtB/DnIMuKQSFUV15B0f/QrRf/tvVwIN5D04gr3dq1PbRzMoJHgNsYlGAzYnRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\spoke\\source\\repos\\mis321_group11\\api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\spoke\\source\\repos\\mis321_group11\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\spoke\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\spoke\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
