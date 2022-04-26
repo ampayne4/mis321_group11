@@ -3,6 +3,21 @@ function handleOnLoad()
 { 
     populateList();
 }
+function Displaycustlogin()
+{
+    window.location.href = "./cust_login.html";
+}
+function Displayemplogin()
+{
+    window.location.href = "./employ_login.html";
+}
+function custSignUp()
+{
+    window.location.href = "./cust_signup.html";
+}
+
+
+
 function populateList()
 {
     fetch(baseUrl).then(function(response) 
