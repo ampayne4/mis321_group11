@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/Api.csproj": {}
+    "/Users/monteria/mis321_group11-1/Api/Api.csproj": {}
   },
   "projects": {
-    "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/Api.csproj": {
+    "/Users/monteria/mis321_group11-1/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/Api.csproj",
+        "projectUniqueName": "/Users/monteria/mis321_group11-1/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/Api.csproj",
-        "packagesPath": "/Users/betsybryant/.nuget/packages/",
-        "outputPath": "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/obj/",
+        "projectPath": "/Users/monteria/mis321_group11-1/Api/Api.csproj",
+        "packagesPath": "/Users/monteria/.nuget/packages/",
+        "outputPath": "/Users/monteria/mis321_group11-1/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/betsybryant/.nuget/NuGet/NuGet.Config"
+          "/Users/monteria/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
         }
       }
     }
