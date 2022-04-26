@@ -7,6 +7,11 @@ const baseUrl = "https://localhost:5001/api/Customers";
 // {
 //     postCustomer();
 // }
+
+function test(){
+    console.log("test");
+}
+
 function createUserAccount(){
     const postUrl = baseUrl;
     const sendCust = {
