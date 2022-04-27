@@ -1,10 +1,18 @@
 const baseUrl = "https://localhost:5001/api/Customers";
 
+function test(){
+    console.log(sessionStorage.getItem("email"));
+    console.log(sessionStorage.getItem("password"));
+}
+
+
 function custLogin(){
     var email = document.getElementById("email").value;
     var password = document.getElementById("Pass").value;
 
     const url = baseUrl;
+
+
 
     console.log(email);
     console.log(password);
@@ -15,6 +23,12 @@ function custLogin(){
         console.log(json);
         json.forEach((customer) => {
             console.log(customer.custFName)
+            if(email === customer.custEmail && password === customer.custPassword)
+            {
+                console.log("Email and password match!");
+                sessionStorage.setItem("email", customer.custEmail);
+                sessionStorage.setItem("password", customer.custPassword);
+            }
 		});
     }).catch(function(error){
         console.log(error);

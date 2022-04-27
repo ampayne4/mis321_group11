@@ -1,20 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/Api.csproj": {}
+<<<<<<< HEAD
+    "/Users/monteria/mis321_group11-1/Api/Api.csproj": {}
   },
   "projects": {
-    "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/Api.csproj": {
+    "/Users/monteria/mis321_group11-1/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/Api.csproj",
+        "projectUniqueName": "/Users/monteria/mis321_group11-1/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/Api.csproj",
-        "packagesPath": "/Users/betsybryant/.nuget/packages/",
-        "outputPath": "/Users/betsybryant/Desktop/MIS321/mis321_group11/Api/obj/",
+        "projectPath": "/Users/monteria/mis321_group11-1/Api/Api.csproj",
+        "packagesPath": "/Users/monteria/.nuget/packages/",
+        "outputPath": "/Users/monteria/mis321_group11-1/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/betsybryant/.nuget/NuGet/NuGet.Config"
+          "/Users/monteria/.nuget/NuGet/NuGet.Config"
+=======
+    "C:\\Users\\spoke\\source\\repos\\mis321_group11\\Api\\Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\spoke\\source\\repos\\mis321_group11\\Api\\Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spoke\\source\\repos\\mis321_group11\\Api\\Api.csproj",
+        "projectName": "Api",
+        "projectPath": "C:\\Users\\spoke\\source\\repos\\mis321_group11\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\spoke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spoke\\source\\repos\\mis321_group11\\Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\spoke\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 60d47a5ab64660b4e1ab11d452b6ab2f16bba2c4
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -73,7 +90,11 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+<<<<<<< HEAD
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+>>>>>>> 60d47a5ab64660b4e1ab11d452b6ab2f16bba2c4
         }
       }
     }
