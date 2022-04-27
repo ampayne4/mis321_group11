@@ -27,7 +27,7 @@ function custLogin(){
             {
                 console.log("Email and password match!");
                 sessionStorage.setItem("email", customer.custEmail);
-                sessionStorage.setItem("password", custPassword);
+                sessionStorage.setItem("password", customer.custPassword);
             }
 		});
     }).catch(function(error){
